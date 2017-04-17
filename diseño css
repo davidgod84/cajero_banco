@@ -1,0 +1,134 @@
+* {
+    padding : 20;
+    margin : 30 20;
+}
+
+body {
+    background : #2E9AFE ;
+    color : black;
+	 text-align: center-left; 	  
+}
+#contenedor{
+	margin: 40;
+	color: blue;
+	position: relative;
+	top: 0px;
+	bottom: 300px;
+	right: 0px;
+	left: 0px;
+	background: #2E9AFE;
+}
+#boton {
+	border: none;
+	font-size: 1.3rem;
+	color: black;
+	background: -webkit-linear-gradient (top, silver, white);
+	background: -moz-linear-gradient (top, silver, white);
+	background: linear-gradient (top, silver, white);
+	padding: 0.5rem 0.8rem;
+	cursor: pointer;
+	border-radius: 6px;
+	box-shadow: 3px 5px 7px black;
+	font-family: Arial, Helvetica, san-serif;
+	font-weight: Bold;
+}	
+
+#boton:active {
+	background: -webkit-linear-gradient (top, white, silver);
+	background: -moz-linear-gradient (top, white, silver);
+	background: linear-gradient (top, white, silver);
+
+}
+#botones1{
+	float: left;
+	width: 200px;
+	padding: 10px;
+}
+#botones2{
+	float: left;
+}
+#cuadro{
+	float: left;
+}
+#tecla{
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+	font-weight: Bold;
+  color: black;
+  font-size: 1.3rem;
+  background: white;
+  padding: 10px 20px;
+  border: 3px solid #3866A3;
+  text-decoration: none;
+	float: center;
+}
+#tecla:active {
+  background: #E6E6E6;
+  text-decoration: none;
+}
+#colocar{
+	-webkit-border-radius: 10;
+	-moz-border-radius: 10;
+	border-radius: 6px;
+	border: 3px solid white;	
+	font-family: Arial;
+	font-weight: Bold;
+	color: black;
+	background: #3498db;
+	font-size: 1.3rem;
+	padding: 8px;
+	float: center-right;
+}
+#colocar:active{
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+#Aceptar{
+	-webkit-border-radius: 10;
+	-moz-border-raius: 10;
+	border-radius: 6px;
+	border: 3px solid white;
+	font-family: Arial;
+	font-weight: Bold;
+	color: black;
+	background: green;
+	font-size: 1.3rem;
+	padding: 8px;
+	float: center-right;
+}
+#Corregir{
+	-webkit-border-radius: 10;
+	-moz-border-raius: 10;
+	border-radius: 6px;
+	border: 3px solid white;
+	font-family: Arial;
+	font-weight: Bold;
+	color: black;
+	background: yellow;
+	font-size: 1.3rem;
+	padding: 8px;
+	float: center-right;
+}
+#Cancelar{
+	-webkit-border-radius: 10;
+	-moz-border-raius: 10;
+	border-radius: 6px;
+	border: 3px solid white;
+	font-family: Arial;
+	font-weight: Bold;
+	color: black;
+	background: red;
+	font-size: 1.3rem;
+	padding: 8px;
+	float: center-right;
+}
+#teclado{
+	float: left;
+	width: 300px;
+	padding: 15px;
+}
+#cuerpo_caja{
+	clear: both;
+}
