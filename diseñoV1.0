@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cajero Bancario</title>
+    <link rel="stylesheet" href="./css/style.css" />
+		<meta charset="UTF-8">
+</head>
+<body>
+		<div id="pancaja"> 		
+		<div id="botones1">
+			<button id="boton"></button><br/><br/><br/>
+			<button id="boton"></button><br/><br/><br/>
+			<button id="boton"></button><br/><br/><br/>
+			<button id="boton"></button><br/><br/> </div>
+			<div id="cuadro"><textarea id="pantalla" cols="60" rows="20"></textarea></div>
+		<div id="botones2">
+			<button id="boton"></button><br/><br/><br/>
+			<button id="boton"></button><br/><br/><br/>
+			<button id="boton"></button><br/><br/><br/>
+			<button id="boton"></button></div> </div>
+		 <div id="cuerpo_caja">
+		<div id="teclado">
+			<button id="tecla">1</button>
+			<button id="tecla">2</button>
+			<button id="tecla">3</button><br/><br/>
+			<button id="tecla">4</button>
+			<button id="tecla">5</button>
+			<button id="tecla">6</button><br/><br/>
+			<button id="tecla">7</button>
+			<button id="tecla">8</button>
+			<button id="tecla">9</button><br/><br/>
+			<button id="tecla">*</button>
+			<button id="tecla">0</button>
+			<button id="tecla">#</button></div>
+		<div id="botones3">
+			<button id="colocar">Colocar</button><br/><br/>
+			<button id="Aceptar">Continuar</button><br/><br/>
+			<button id="Corregir">Corregir</button><br/><br/>
+			<button id="Cancelar">Salir</button></div> </div>			
+				 <script src="./js/script.js"></script>
+</body>
+</html>
